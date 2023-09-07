@@ -7,6 +7,9 @@ public class GitProgram {
 	}
 	private void course() {
 		System.out.println("Course : Java");
+	}
+	private void fee() {
+		System.out.println("Fee : 20000");
 
 	}
 	private void name1() {
@@ -21,8 +24,10 @@ public class GitProgram {
 		GitProgram g = new GitProgram();
 		g.name();
 		g.course();
+		g.fee();
 		g.name1();
 		g.course1();
+
 		
 	}
 
