@@ -9,11 +9,20 @@ public class GitProgram {
 		System.out.println("Course : Java");
 
 	}
+	private void name1() {
+		System.out.println("Name : Fayaz");
+	}
+	private void course1() {
+		System.out.println("Course : Selenium");
+
+	}
 	public static void main(String[] args) {
 		
 		GitProgram g = new GitProgram();
 		g.name();
 		g.course();
+		g.name1();
+		g.course1();
 		
 	}
 
